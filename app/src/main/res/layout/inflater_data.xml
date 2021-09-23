@@ -19,11 +19,12 @@
             android:layout_width="0dp"
             android:layout_height="@dimen/dp_55"
             android:layout_weight="1"
-            android:src="@mipmap/ic_launcher"
+            android:src="@drawable/icon"
             app:civ_border_color="@color/color_backgrond_white"
             app:civ_border_width="@dimen/dp_2" />
 
         <com.example.reportapp.TextView_Lato
+            android:text="Lato"
             android:id="@+id/subject_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -33,6 +34,7 @@
             android:textStyle="bold" />
 
         <com.example.reportapp.TextView_lato_thin
+            android:text="Lato_thin"
             android:id="@+id/subject_mark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -43,6 +45,7 @@
             android:textStyle="bold" />
 
         <com.example.reportapp.TextView_lato_thin
+            android:text="Lato_thin"
             android:id="@+id/subject_grade"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
